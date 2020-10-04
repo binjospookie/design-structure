@@ -1,13 +1,16 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Design structure',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/design-structure/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  url: 'https://design-structure.github.io', // Your website URL
+  projectName: 'design-structure',
+  organizationName: 'binjospookie',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Design structure',
       logo: {
@@ -16,7 +19,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/binjospookie/design-structure',
           label: 'GitHub',
           position: 'right',
         },
@@ -25,7 +28,7 @@ module.exports = {
     prism: {
       defaultLanguage: 'typescript',
       theme: require('prism-react-renderer/themes/vsDark'),
-    }
+    },
   },
   presets: [
     [

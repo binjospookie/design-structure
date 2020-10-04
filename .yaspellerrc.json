@@ -1,0 +1,18 @@
+{
+    "excludeFiles": [
+      ".git",
+      "libs",
+      "node_modules",
+      "yaspeller"
+    ],
+    "lang": "ru",
+    "dictionary": [
+      "таск",
+      "фич",
+      "багов",
+      "тимлид",
+      "фичи",
+      "фича",
+      "скиллов"
+    ]
+  }

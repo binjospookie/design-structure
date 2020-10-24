@@ -4,8 +4,8 @@
   <ShortName>Mental structure</ShortName>
   <Description>Search Mental structure</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://design-structure.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://design-structure.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://design-structure.github.io/opensearch.xml" />
-  <moz:SearchForm>https://design-structure.github.io</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://mental-structure.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://mental-structure.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://mental-structure.github.io/opensearch.xml" />
+  <moz:SearchForm>https://mental-structure.github.io</moz:SearchForm>
 </OpenSearchDescription>

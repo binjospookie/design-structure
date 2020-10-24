@@ -1,25 +1,25 @@
 module.exports = {
-  title: 'Design structure',
+  title: 'Mental structure',
   tagline: 'The tagline of my site',
-  baseUrl: '/design-structure/',
+  baseUrl: '/mental-structure/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  url: 'https://design-structure.github.io', // Your website URL
-  projectName: 'design-structure',
+  url: 'https://mental-structure.github.io', // Your website URL
+  projectName: 'mental-structure',
   organizationName: 'binjospookie',
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
     },
     navbar: {
-      title: 'Design structure',
+      title: 'Mental structure',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Hmmmm',
         src: 'img/logo.svg',
       },
       items: [
         {
-          href: 'https://github.com/binjospookie/design-structure',
+          href: 'https://github.com/binjospookie/mental-structure',
           label: 'GitHub',
           position: 'right',
         },
@@ -28,7 +28,7 @@ module.exports = {
     prism: {
       defaultLanguage: 'typescript',
       theme: require('prism-react-renderer/themes/vsDark'),
-    },
+    }
   },
   presets: [
     [
@@ -36,10 +36,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/binjospookie/design-structure',
+            'https://github.com/binjospookie/mental-structure',
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
